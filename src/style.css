@@ -63,3 +63,9 @@ svg {
   -webkit-box-shadow: 10px 10px 14px 0 rgba(171, 171, 171, 0.5);
   -moz-box-shadow: 10px 10px 14px 0 rgba(171, 171, 171, 0.5);
 }
+
+.clear {
+  padding:10px;
+  text-align: center;
+  margin: 10px 0;
+}
