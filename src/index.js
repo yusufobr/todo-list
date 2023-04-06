@@ -16,12 +16,12 @@ const list = [
     completed: false,
     index: 2,
   },
-]
+];
 
 const renderTasks = () => {
-  const todoList = document.getElementById('to-do-list')
+  const todoList = document.getElementById('to-do-list');
 
-  let tasks = ''
+  let tasks = '';
   list.forEach((task) => {
     tasks += `
     <li class="flex-col-btw">
@@ -32,8 +32,8 @@ const renderTasks = () => {
       <p>${task.description}</p>
     </div>
     <span>&#8942;</span>
-  </li>`
-  })
+  </li>`;
+  });
   todoList.innerHTML = tasks;
-}
-renderTasks()
+};
+renderTasks();

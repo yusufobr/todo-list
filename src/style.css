@@ -24,24 +24,32 @@ svg {
 }
 
 .flex-col-btw {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .flex-col-btw span {
-    font-size: x-large;
-    padding: 10px;
+  font-size: x-large;
+  padding: 10px;
 }
 
 .flex-col-start {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
 }
+
+.container input {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  font-style: italic;
+}
+
 .flex-col-start div input {
-    margin-top: 6px;
+  margin-top: 6px;
 }
 
 .container {
@@ -51,14 +59,7 @@ svg {
   margin-top: 5%;
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 10px 10px 14px 0px rgba(171, 171, 171, 0.5);
-  -webkit-box-shadow: 10px 10px 14px 0px rgba(171, 171, 171, 0.5);
-  -moz-box-shadow: 10px 10px 14px 0px rgba(171, 171, 171, 0.5);
-}
-
-.container input {
-  width: 100%;
-  border: none;
-  padding: 10px;
-  font-style: italic;
+  box-shadow: 10px 10px 14px 0 rgba(171, 171, 171, 0.5);
+  -webkit-box-shadow: 10px 10px 14px 0 rgba(171, 171, 171, 0.5);
+  -moz-box-shadow: 10px 10px 14px 0 rgba(171, 171, 171, 0.5);
 }
