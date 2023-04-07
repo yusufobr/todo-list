@@ -52,7 +52,10 @@
 
 - **[Use JavaScript to add and remove to-do items]**
 - **[Use Javascript to edit tasks]**
+- **[Add JavaScript files as modules]**
 - **[Use webpack to manage the code]**
+- **[Implement filter() method]**
+- **[Store todo data in local Storage]**
 - **[Use css to modify the appearance of the list]**
 - **[Use ES6 to modify the javaScript code]**
 
@@ -84,8 +87,8 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd to-do-list
-  yarn install
+  cd todo-list
+  npm install
 ```
 
 ### Usage
