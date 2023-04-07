@@ -51,7 +51,11 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Use JavaScript to add and remove to-do items]**
+- **[Use Javascript to edit tasks]**
+- **[Add JavaScript files as modules]**
 - **[Use webpack to manage the code]**
+- **[Implement filter() method]**
+- **[Store todo data in local Storage]**
 - **[Use css to modify the appearance of the list]**
 - **[Use ES6 to modify the javaScript code]**
 
@@ -83,8 +87,8 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd to-do-list
-  yarn install
+  cd todo-list
+  npm install
 ```
 
 ### Usage
@@ -154,6 +158,6 @@ I would like to thank Microverse for giving me a chance to practice on some real
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENCE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
