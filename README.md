@@ -51,6 +51,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Use JavaScript to add and remove to-do items]**
+- **[Use Javascript to edit tasks]**
 - **[Use webpack to manage the code]**
 - **[Use css to modify the appearance of the list]**
 - **[Use ES6 to modify the javaScript code]**
