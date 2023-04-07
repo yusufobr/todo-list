@@ -155,6 +155,6 @@ I would like to thank Microverse for giving me a chance to practice on some real
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/yusufobr/todo-list/blob/main/LICENCE) licensed.
+This project is [MIT](./LICENCE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
