@@ -1,3 +1,5 @@
+import { isCompleted, deleteCompleted } from './interactive.js';
+
 // Variable initialization
 let lists = JSON.parse(localStorage.getItem('lists') ?? '[]');
 
@@ -46,7 +48,7 @@ export default function showTasks() {
 
     // checkbox event listener
     checkbox.addEventListener('click', () => {
-      task.completed = checkbox.checked;
+      isCompleted(task);
       box.classList.toggle('complete');
       localStorage.setItem('lists', JSON.stringify(lists));
     });
@@ -96,7 +98,7 @@ export default function showTasks() {
 
   // clearBtn event listener
   clearBtn.addEventListener('click', () => {
-    lists = lists.filter((task) => !task.completed);
+    lists = deleteCompleted(lists);
     localStorage.setItem('lists', JSON.stringify(lists));
     updateIndex();
     showTasks();
